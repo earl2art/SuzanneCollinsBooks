@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Main Selectors */
+
+p {
+    margin: 10px 0 15px 0;
+}
+/* Main Navigation */
+
+.hgHeadImg {
+    margin-bottom: -5px;
+    max-width: 100%;
+}
+
+nav, footer {
+    background-color: black;
+}
+nav ul li {
+    display: inline-block;
+    margin:25px;
+}
+nav ul li a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content */
+
+#leftContainer, #rightContainer {
+    text-align: center;
+    padding: 20px;
+}
+#leftContainer img, #rightContainer img {
+    text-align: center;
+    margin: 15px;
+    border: solid 2px black;
+    box-shadow: 2px 2px 18px 3px black;
+}
+#leftContainer {
+    background-color: #d84b27;
+}
+#rightContainer {
+    background-color: #f78f26;
+}
+footer {
+    color: white;
+    padding: 10px 10px 10px 20px;
+}
