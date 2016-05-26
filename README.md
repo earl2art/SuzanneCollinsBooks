@@ -1,2 +1,2 @@
-# SuzannaCollinsBooks
-Suzanna Collins books website
+# SuzanneCollinsBooks
+Suzanne Collins books website
