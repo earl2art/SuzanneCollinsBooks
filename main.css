@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/* Main Selectors */
+/* +++++++++ Main Selectors ++++++++ */
+
 
 p {
     margin: 10px 0 15px 0;
 }
-/* Main Navigation */
+/* ++++++++ Main Navigation ++++++++ */
 
 .hgHeadImg {
     margin-bottom: -5px;
@@ -18,34 +19,107 @@ nav, footer {
     background-color: black;
 }
 nav ul li {
-    display: inline-block;
-    margin:25px;
+    padding: 5px;
+    text-align: left;
+    border: solid 1px gray;
+        
 }
-nav ul li a {
-    font-size: 25px;
+nav a {
+    font-size: 27px;
     color: white;
     text-decoration: none;
 }
+#navIcon {
+    width:45px;
+    margin: .6em 0 .6em 83%;
+    
+}
+nav ul li ul {
+    display: none;
+}
+#hoverState:hover ul {
+    display:block;
+}
+.clearIt {
+    clear: both;
+}
+/* ++++++++++ Main content ++++++++++ */
 
-/* Main content */
-
-#leftContainer, #rightContainer {
-    text-align: center;
+li {
+    list-style-type: none;
+}
+article {
     padding: 20px;
 }
-#leftContainer img, #rightContainer img {
+section {
+}
+
+#orangeContainer, #rightContainer {
+    text-align: center;
+}
+#orangeContainer img, #rightContainer img {
     text-align: center;
     margin: 15px;
     border: solid 2px black;
     box-shadow: 2px 2px 18px 3px black;
 }
-#leftContainer {
+#orangeContainer {
     background-color: #d84b27;
 }
 #rightContainer {
     background-color: #f78f26;
+    height: 100%;
+    
 }
 footer {
     color: white;
     padding: 10px 10px 10px 20px;
 }
+
+/* ++++++++++ MEDIA QUERIES FOR  IPAD +++++++++++  */
+
+
+@media only screen and (min-width: 768px) {
+    #navIcon {
+        display: none;
+    }
+    nav ul {
+        text-align: center;
+        padding:10px 0 10px 0;
+    }
+    nav ul li {
+        display: inline;
+        border: none;
+    }
+     .navList {
+        display: inline;
+        text-align: center;
+    }
+    .navList li {
+        padding:20px;
+    }
+    #hoverState {
+        display:inline-flex;
+    }
+    
+}
+/* +++++++++ MEDIA QUERIES FOR DESKTOP ++++++++++ */
+
+@media only screen and (min-width:1024px){
+    #centerContent {
+        margin: 0 auto;
+        width:1024px;
+    }
+    #leftContent {
+        width:472px;
+        float: left;
+    }
+    #orangeContainer {
+       
+    }
+    #rightContainer {
+        width:472px;
+        float: left;
+    }
+}
+
