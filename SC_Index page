@@ -3,76 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>SuzannaCollinsbooks.com</title>
+    <title>SuzanneCollinsbooks.com</title>
     
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
     
-    <header>
-       
-       <img src="images/heading.jpg" alt="hunger games" class="hgHeadImg">
-        <nav>
-            <ul>
-                <li><a href="">About Author</a></li>
-                <li><a href="">Resources</a></li>
-                <li><a href="">Books</a></li>
-                <li><a href="">FAQ's</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="leftContainer">
-            
-            <h2>Welcome</h2>
-            <p>Hi! Thanks for visiting my website. Here’s a picture of me with a rat in Central Park. If you’ve read my fantasy series, The Underland Chronicles, you will have a clue as to why I chose this photo. If not, you may want to click around and find out a little more about my books. Or visit the Scholastic website for cool games and info! Click the link below to visit Scholastic's website.</p>
-            
-            <a href="#"><img src="images/schoolasticlink.jpg" alt="scholastic website"></a>
-            
-            <img src="images/ratpark.jpg" alt="collins in park">
-            
-            <p>#1 USA Today Bestseller
-            <br />
-#1 New York Times Bestseller
-<br />
-#1 Wall Street Journal Bestseller
-<br />
-#1 Publishers Weekly Bestseller
- <br />
-A New York Times Notable Children's Book of 2010
- <br />
-A New York Times Book Review Editors' Choice
- <br />
-A 2010 Booklist Editors' Choice
- <br />
-A 2010 Kirkus Best Book of the Year
- <br />
-A Publishers Weekly Best Book of 2010
-<br />
-An NPR Best Book of 2010</p>
-            
-        </section>
-        <section id="rightContainer">
-            
-            <h2>Featured Book</h2>
-            <p>
-This concluding volume in Collins's Hunger Games trilogy accomplishes a rare feat, the last installment being the best yet, a beautifully orchestrated and intelligent novel that succeeds on every level.</p> 
+    <div id="centerContent">
+        <header>
            
-           <img src="images/mockingjaybk.jpg" alt="mockingJay">
+           <img src="images/heading.jpg" alt="hunger games" class="hgHeadImg">
+            <nav>
+               <ul>
+                   <li id="hoverState">
+                       
+                           <img src="images/hamIcon.png" alt="navigation button" id="navIcon">
+                      
+                        <ul class="navList">
+                            <li><a href="#">About Author</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                   </li>
+               </ul>
+            </nav>
+        </header>
+        
+        <main>
             
-            
-        </section>
-
-        <footer>
-            <p>&copy;2016 Suzanne Collins
-                   <br />
-                   Edesigns Web Design - All Rights Reserved - sitemap
-                   </p>
+                <section id="orangeContainer">
                     
-            
-        </footer>
-    </main>
+                    <article id="leftContent">
+                       
+                        <h2>Welcome</h2>
+                        
+                        <p>Hi! Thanks for visiting my website. Here’s a picture of me with a rat in Central Park. If you’ve read my fantasy series, The Underland Chronicles, you will have a clue as to why I chose this photo. If not, you may want to click around and find out a little more about my books. Or visit the Scholastic website for cool games and info! Click the link below to visit Scholastic's website.
+                        </p>
+                        
+                        <div>
+                            <a href="#"><img src="images/schoolasticlink.jpg" alt="scholastic website"></a>
+                        </div>
+                        
+                        <img src="images/ratpark.jpg" alt="collins in park">
+                        
+                        <p>#1 USA Today Bestseller
+                        <br />
+                            #1 New York Times Bestseller
+                            <br />
+                            #1 Wall Street Journal Bestseller
+                            <br />
+                            #1 Publishers Weekly Bestseller
+                             <br />
+                            A New York Times Notable Children's Book of 2010
+                             <br />
+                            A New York Times Book Review Editors' Choice
+                             <br />
+                            A 2010 Booklist Editors' Choice
+                             <br />
+                            A 2010 Kirkus Best Book of the Year
+                             <br />
+                            A Publishers Weekly Best Book of 2010
+                            <br />
+                            An NPR Best Book of 2010</p>
+                    </article>
+                    
+                <article id="rightContainer">
+                    
+                    <h2>Featured Book</h2>
+                    
+                    <p>
+                        This concluding volume in Collins's Hunger Games trilogy accomplishes a rare feat, the last installment being the best yet, a beautifully orchestrated and intelligent novel that succeeds on every level.
+                    </p> 
+                   
+                   <img src="images/mockingjaybk.jpg" alt="mockingJay" id="featuredBook">
+                    <p>
+                        “This concluding volume in Collins's Hunger Games trilogy accomplishes a rare feat, the last installment being the best yet, a beautifully orchestrated and intelligent novel that succeeds on every level."
+                        <br /><br />
+                        --Publishers Weekly,STARRED REVIEW
+                    </p>
+               
+                </article>
+                    
+                    
+            <footer class="clearIt">
+                <p>&copy;2016 Suzanne Collins
+                       <br />
+                       Edesigns Web Design - All Rights Reserved - sitemap
+                       </p>
+                        
+                
+            </footer>
+                </section>
+        
+        
+        </main>
+    </div>
 </body>
 </html>
