@@ -20,7 +20,7 @@
                            <img src="images/hamIcon.png" alt="navigation button" id="navIcon">
                       
                         <ul class="navList">
-                            <li><a href="#">About Author</a></li>
+                            
                             <li><a href="#">Resources</a></li>
                             <li><a href="#">Books</a></li>
                             <li><a href="#">FAQ's</a></li>
